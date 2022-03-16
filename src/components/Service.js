@@ -37,8 +37,16 @@ const Service = ({ service }) => {
             <Card.Title className='text-uppercase text-center'>
               {title}
             </Card.Title>
-            <Card.Title className='text-center'>Price: {price}.00TK</Card.Title>
-            <Card.Text>{desc.slice(0, 100)}...</Card.Text>
+            <Card.Text className='text-center small'>
+              <i class='fas event-icon fa-map-marker-alt text-success'></i>{' '}
+              &nbsp; {from} to {destination} &nbsp;{' '}
+              <i class='fas event-icon fa-flag-checkered text-success'></i>
+            </Card.Text>
+            <Card.Text className='text-center fw-bold'>
+              Budget: {price}.00TK
+            </Card.Text>
+            <hr />
+            <Card.Text>{desc.slice(0, 110)}...</Card.Text>
             <Card.Text className='text-center'>
               Rating:{' '}
               <Rating
@@ -51,7 +59,7 @@ const Service = ({ service }) => {
               {rating} ({totalReview})
             </Card.Text>
 
-            <Link to={`/placeorder/${_id}`}>
+            <Link to={`/services/${_id}`}>
               <button className='btn mt-2 mx-2 btn-primary text-center'>
                 Event Details
               </button>

@@ -26,22 +26,22 @@ const Footer = () => {
                 <div>
                   <ul className='social-icons'>
                     <li>
-                      <a href='/d'>
+                      <a href='/home'>
                         <i className='fab fa-youtube'></i>
                       </a>
                     </li>
                     <li>
-                      <a href='/d'>
+                      <a href='/home'>
                         <i className='fab fa-facebook-square'></i>
                       </a>
                     </li>
                     <li>
-                      <a href='/d'>
+                      <a href='/home'>
                         <i className='fab fa-instagram'></i>
                       </a>
                     </li>
                     <li>
-                      <a href='/d'>
+                      <a href='/home'>
                         <i className='fab fa-twitter-square'></i>
                       </a>
                     </li>
@@ -60,7 +60,7 @@ const Footer = () => {
                     <a href='/home'>TERMS & CONDITIONS</a>
                   </li>
                   <li>
-                    <a href='/home'>Pran-RFL</a>
+                    <a href='/home'>Hit The Trail</a>
                   </li>
                   <li>
                     <a href='/home'>Career</a>
@@ -83,19 +83,19 @@ const Footer = () => {
                     <a href='/home'>FAQs</a>
                   </li>
                   <li>
-                    <a href='/home'>MyPran</a>
+                    <a href='/home'>MyHTT</a>
                   </li>
                   <li>
                     <a href='/home'>Store Locator</a>
                   </li>
                   <li>
-                    <a href='/home'>All About Pran-RFL</a>
+                    <a href='/home'>All About HTT</a>
                   </li>
                   <li>
                     <a href='/home'>Contact Info</a>
                   </li>
                   <li>
-                    <a href='/home'>Delivery</a>
+                    <a href='/services'>Packages</a>
                   </li>
                 </ul>
               </Zoom>
@@ -113,7 +113,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <i className='fas fa-envelope'></i>
-                    Email: info@pran-rfl.bd
+                    Email: info@htt.bd
                   </li>
                   <li>
                     <i className='fas fa-phone'></i>
@@ -128,10 +128,7 @@ const Footer = () => {
       <div className='footer'>
         <p className='text-center'>
           {' '}
-          <span className='text-warning fw-bold'>
-            {' '}
-            &copy; Hasan Ahmed || Programming Hero 2021
-          </span>
+          <span className='text-warning fw-bold'> &copy; Hit the Trail</span>
         </p>
       </div>
     </>

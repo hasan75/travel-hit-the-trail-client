@@ -45,7 +45,7 @@ const ManageServices = () => {
                 <td>{service.desc}</td>
                 <td>${service.price}</td>
                 <td className='text-center'>
-                  <Button variant='outline-success' className='p-1 me-2 mb-0'>
+                  <Button variant='outline-success' className='p-1 me-2 mb-1'>
                     <i className='fas fa-edit  mx-1'></i>
                     Edit
                   </Button>

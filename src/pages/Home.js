@@ -15,6 +15,7 @@ import collection7 from './../assets/images/collection/c7.png';
 import collection8 from './../assets/images/collection/c8.jpg';
 import Bounce from 'react-reveal/Bounce';
 import Testimonials from '../components/Testimonials.js';
+import VideoCOmponent from '../components/VideoCOmponent/VideoCOmponent.js';
 const Home = () => {
   const services = useServices();
   return (
@@ -110,6 +111,9 @@ const Home = () => {
           </Link>
         </div>
       </Container>
+      <section classsName='videoContent my-2'>
+        <VideoCOmponent></VideoCOmponent>
+      </section>
       <Testimonials />
     </div>
   );

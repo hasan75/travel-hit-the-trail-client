@@ -10,6 +10,8 @@ import Login from './pages/Login';
 import Register from './pages/Register';
 import PageNotFound from './pages/PageNotFound';
 import Services from './components/Services';
+import SingleService from './pages/SingleService';
+import About from './pages/About';
 
 function App() {
   return (
@@ -23,6 +25,9 @@ function App() {
           <Route exact path='/home'>
             <Home></Home>
           </Route>
+          <Route path='/about'>
+            <About></About>
+          </Route>
           <Route path='/dashboard'>
             <Dashboard></Dashboard>
           </Route>
@@ -32,8 +37,11 @@ function App() {
           <Route path='/register'>
             <Register></Register>
           </Route>
-          <Route path='/services'>
+          <Route exact path='/services'>
             <Services></Services>
+          </Route>
+          <Route path='/services/:_id'>
+            <SingleService></SingleService>
           </Route>
           <Route path='*'>
             <PageNotFound></PageNotFound>

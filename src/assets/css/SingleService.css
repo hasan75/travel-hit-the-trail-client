@@ -1,0 +1,9 @@
+.imgContainer {
+  display: flex;
+  justify-content: center;
+}
+.singlePicture {
+  height: 70vh;
+  border: none;
+  border-radius: 20px;
+}

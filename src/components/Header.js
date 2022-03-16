@@ -18,6 +18,9 @@ const Header = () => {
               <Nav.Link activeClassName='current' as={NavLink} to='/home'>
                 Home
               </Nav.Link>
+              <Nav.Link activeClassName='current' as={NavLink} to='/about'>
+                About
+              </Nav.Link>
 
               <Nav.Link activeClassName='current' as={NavLink} to='/services'>
                 Services
@@ -25,8 +28,8 @@ const Header = () => {
               <Nav.Link activeClassName='current' as={NavLink} to='/dashboard'>
                 Dashboard
               </Nav.Link>
-              <Nav.Link>
-                <button className='login-button'>Logout</button>
+              <Nav.Link activeClassName='current' as={NavLink} to='/register'>
+                <button className='login-button'>Sign Up</button>
               </Nav.Link>
               <Nav.Link activeClassName='current' as={NavLink} to='/login'>
                 <button className='login-button'>Login</button>

@@ -3,14 +3,14 @@
         "_id": "6230de9426fc976e0f858fa4",
         "name": "Rahim Uddin",
         "address": "Rajlokkhi,Uttara, Dhaka",
-        "description": "It was a great pleasure to have a tour with HTT. It was great. We all enjoyed it",
+        "description": "It was a great pleasure to have a tour with Baundule. It was great. We all enjoyed it",
         "img": "https://i.ibb.co/5GzXkwq/user.png",
         "email": "rahim@gmail.com",
         "rating": 5
     },
     {
         "_id": "6230de9426fc976e0f858fa41",
-        "name": "Antu Khan",
+        "name": "Moutushi Begum",
         "address": "Abdullahpur,Uttara, Dhaka",
         "description": "Everything was okay in the tour. We enjoyed it.",
         "img": "https://i.ibb.co/5GzXkwq/user.png",
@@ -19,9 +19,9 @@
     },
     {
         "_id": "6230de9426fc976e0f858fa42",
-        "name": "Hasan Ahmed",
+        "name": "Ifrat Jahan",
         "address": "Jatrabari, Dhaka",
-        "description": "We enjoyed the tour very much. Thanks to the HTT Admins",
+        "description": "We enjoyed the tour very much. Thanks to the Baundule Admins",
         "img": "https://i.ibb.co/5GzXkwq/user.png",
         "email": "lama@gmail.com",
         "rating": 5
@@ -30,7 +30,7 @@
         "_id": "6230de9426fc976e0f858fa43",
         "name": "Kuddus Miya",
         "address": "Kamarpara,Uttara, Dhaka",
-        "description": "We enjoyed the tour very much. Thanks to the HTT Admins",
+        "description": "We enjoyed the tour very much. Thanks to the Baundule Admins",
         "img": "https://i.ibb.co/5GzXkwq/user.png",
         "email": "kuddus@miyaa.com",
         "rating": 4

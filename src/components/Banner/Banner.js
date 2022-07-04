@@ -6,7 +6,7 @@ const Banner = () => {
     <div className='mt-2'>
       <div className='container col-lg-12 d-lg-flex py-5 banner'>
         <div className='col-lg-5 py-4 ps-2 my-auto'>
-          <h1 className='mb-3'>Hit The Trail</h1>
+          <h1 className='mb-3'>Baundule Tour</h1>
           <h2 className='mb-3 text-primary'>A Tour Management Company</h2>
           <h3>
             “Travel is fatal to prejudice, bigotry, and narrow mindedness, and

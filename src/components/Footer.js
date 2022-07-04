@@ -60,7 +60,7 @@ const Footer = () => {
                     <a href='/home'>TERMS & CONDITIONS</a>
                   </li>
                   <li>
-                    <a href='/home'>Hit The Trail</a>
+                    <a href='/home'>Baundule Tour</a>
                   </li>
                   <li>
                     <a href='/home'>Career</a>
@@ -83,13 +83,13 @@ const Footer = () => {
                     <a href='/home'>FAQs</a>
                   </li>
                   <li>
-                    <a href='/home'>MyHTT</a>
+                    <a href='/home'>My Baundule</a>
                   </li>
                   <li>
-                    <a href='/home'>Store Locator</a>
+                    <a href='/home'>Office Locator</a>
                   </li>
                   <li>
-                    <a href='/home'>All About HTT</a>
+                    <a href='/home'>All About Baundule</a>
                   </li>
                   <li>
                     <a href='/home'>Contact Info</a>
@@ -113,11 +113,11 @@ const Footer = () => {
                   </li>
                   <li>
                     <i className='fas fa-envelope'></i>
-                    Email: info@htt.bd
+                    Email: info@baundule.bd
                   </li>
                   <li>
                     <i className='fas fa-phone'></i>
-                    Helpline: +8801761395574
+                    Helpline: +8801760629362
                   </li>
                 </ul>
               </Zoom>
@@ -128,7 +128,7 @@ const Footer = () => {
       <div className='footer'>
         <p className='text-center'>
           {' '}
-          <span className='text-warning fw-bold'> &copy; Hit the Trail</span>
+          <span className='text-warning fw-bold'> &copy; Baundule Tour</span>
         </p>
       </div>
     </>

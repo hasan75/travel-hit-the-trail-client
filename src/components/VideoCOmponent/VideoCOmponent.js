@@ -13,10 +13,10 @@ const VideoCOmponent = () => {
         />
       </div>
       <div className='container my-auto'>
-        <h1 className='text-center title'> Travel With Hit The Trail</h1>
+        <h1 className='text-center title'> Travel With Baundule Tour</h1>
         <div className='container pt-5 subtitle text-center'>
           <h4>
-            Hit The Trail is one of the finest and oldest tour management Group
+            Baundule Tour is one of the finest and oldest tour management Group
             in Bangladesh. We offer our customers maximum security and maximum
             amount of comfort. We have several hosts who will try their best to
             host the tours very arrangly.{' '}
